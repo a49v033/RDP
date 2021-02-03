@@ -11,7 +11,7 @@
 
 # Google Colaboratory RDP Server
 This is an RDP Server to connect to the Google Colaboratory machine(?) via RDP to make it easier to use.
-You can use it anytime as long as it isn't deprecated yet because of google itself. Thanks to <a href="https://github.com/alok676875/">alok676875<a/> for the original code.
+You can use it anytime as long as it isn't deprecated yet because of google itself. Thanks to <a href="https://github.com/alok676875/">alok676875<a/> for the original code, and <a href="https://github.com/mzrtamp/">mzrtamp<a/> for helping me.
 
 <a name="1"/>
 
