@@ -36,6 +36,7 @@ You can use it anytime as long as it isn't deprecated yet because of google itse
 8. Wait for `Package upgrade has completed` show up.
 9. Go to https://remotedesktop.google.com/access,<br/>
 9.1. Select your remote device(s).
+10. AND BOOM YOU'RE CONNECTED
 
 <a name="2"/>
 
