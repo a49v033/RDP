@@ -30,7 +30,7 @@ You can use it anytime as long as it isn't deprecated yet because of google itse
 5.1. Wait for the RDP Server installing.
 6. Just follow the rest of it okay.
 7. Go to https://remotedesktop.google.com/headless,<br />
-7.1. Click Begin > Next > Athorize > Select your google account > Copy Debian Linux > Start Over, then close the tab,<br />
+7.1. Click Begin > Next > Authorize > Select your google account > Copy Debian Linux > Start Over, then close the tab,<br />
 7.2. Paste the command that you've copied in the terminal(?) then press enter,<br />
 7.3. Enter a PIN at least six digits and then enter the same PIN again.
 8. Wait for `Package upgrade has completed` show up.
