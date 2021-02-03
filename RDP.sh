@@ -1,11 +1,11 @@
 #! /bin/bash
-printf "Installing RDP Be Patience... " >&2
+printf "Installing the server, please wait..." >&2
 {
-sudo useradd -m Tira
-sudo adduser Tira sudo
-echo 'Tira:TiaraR01?' | sudo chpasswd
+sudo useradd -m ubuntu
+sudo adduser ubuntu sudo
+echo 'ubuntu:12345678' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
-sudo apt-get update
+sudo apt update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
@@ -18,17 +18,17 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
-sudo adduser Tira chrome-remote-desktop
+sudo adduser ubuntu chrome-remote-desktop
 } &> /dev/null &&
-printf "\nSetup Complete " >&2 ||
-printf "\nError Occured " >&2
-printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
-read -p "Paste Here: " CRP
-su - Tira -c """$CRP"""
-printf 'Check https://remotedesktop.google.com/access/ \n\n'
+printf "\nSetup has completed " >&2 ||
+printf "\nAn error has occured " >&2
+printf '\nPlease check https://remotedesktop.google.com/headless And copy the command line of Debian Linux and then paste it\n'
+read -p "Command: " CRP
+su - ubuntu -c """$CRP"""
+printf 'Please check https://remotedesktop.google.com/access/ \n\n'
 if sudo apt-get upgrade &> /dev/null
 then
-    printf "\n\nUpgrade Completed " >&2
+    printf "\n\nPackage upgrade has completed. " >&2
 else
-    printf "\n\nError Occured " >&2
+    printf "\n\nAn error has occured " >&2
 fi
