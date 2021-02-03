@@ -1,9 +1,8 @@
 #! /bin/bash
-printf "\nPlease insert username for the server\n"
+printf "\nPlease insert username and the password for the server\n"
 read -p "Username: " USRNM
-printf "\nAlso the password please\n"
 read -p "Password: " PSWD
-printf "Installing the server, please wait..." >&2
+printf "\nInstalling the server, please wait..." >&2
 {
 sudo useradd -m """$USRNM"""
 sudo adduser """$USRNM""" sudo
