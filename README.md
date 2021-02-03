@@ -37,6 +37,7 @@ You can use it anytime as long as it isn't deprecated yet because of google itse
 9. Go to https://remotedesktop.google.com/access,<br/>
 9.1. Select your remote device(s).
 10. AND BOOM YOU'RE CONNECTED
+69. You need to repeat those step if the machine disconnected.
 
 <a name="2"/>
 
