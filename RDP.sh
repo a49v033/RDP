@@ -1,12 +1,12 @@
 #! /bin/bash
-printf "Installing the server, please wait..." >&2
-{
 printf "\nPlease insert username for the server\n"
 read -p "Username: " USRNM
-sudo useradd -m """$USRNM"""
-sudo adduser """$USRNM""" sudo
 printf "\nAlso the password please\n"
 read -p "Password: " PSWD
+printf "Installing the server, please wait..." >&2
+{
+sudo useradd -m """$USRNM"""
+sudo adduser """$USRNM""" sudo
 echo """$USRNM:$PSWD""" | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt update
