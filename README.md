@@ -25,6 +25,10 @@ You can use it anytime as long as it isn't deprecated yet because of google itse
 ! chmod +x RDP.sh
 ! ./RDP.sh
 ```
+! wget https://raw.githubusercontent.com/a49v033/RDP/main/rdp.sh
+! chmod +x rdp.sh
+! ./rdp.sh
+```
 4. Click the Run cell button (Play emoji like thingy).
 5. Input your username and password there<br />
 5.1. Wait for the RDP Server installing.
