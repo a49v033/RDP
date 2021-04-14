@@ -25,6 +25,7 @@ You can use it anytime as long as it isn't deprecated yet because of google itse
 ! chmod +x RDP.sh
 ! ./RDP.sh
 ```
+```
 ! wget https://raw.githubusercontent.com/a49v033/RDP/main/rdp.sh
 ! chmod +x rdp.sh
 ! ./rdp.sh
